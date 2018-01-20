@@ -37,7 +37,7 @@
             visibility: none;
             opacity: 0;
             z-index: -1;
-            transition: 0.6s all cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition: 500ms all cubic-bezier(0.165, 0.84, 0.44, 1);
         }
         a:hover:after {
             opacity: 1;

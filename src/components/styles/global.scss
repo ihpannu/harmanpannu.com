@@ -1,9 +1,11 @@
 // Variables 
 $c-gray: #585858;
+// $c-gray: #fff;
 $c-pink: #F16D7E;
 $c-blue: #289EF2;
 $c-green: #16a085;
 $c-cream: #FDEBD4;
+// $c-cream: #111011;
 nav,
 ul,
 li,
@@ -17,6 +19,7 @@ h4,
 h5,
 h6 {
     font-family: 'Josefin Sans', sans-serif;
+    // color: #FDEBD4;
     color: #272B34;
     margin: .3em 0;
     line-height: 1.5;

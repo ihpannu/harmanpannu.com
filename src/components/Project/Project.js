@@ -2,6 +2,12 @@ import React from "react";
 import Footer from "../Footer/Footer";
 
 const projects = [
+    {
+    title: "Harmanpannu.com",
+    link: "http://harmanpannu.com",
+    desc:
+      "My personal portfolio website : <br/> Built with: Gatsby JS (ReactJs), SCSS and Used library Particle JS for background animations."
+  },
   {
     title: "Jamming",
     link: "http://jamwithme.surge.sh/",
@@ -42,6 +48,7 @@ const projects = [
     desc:
       "Frontend Tech Degree Project 2 : <br/> Built with: HTML, CSS Grid and Flexbox layout system. Also used CSS Animations."
   },
+
 ];
 
 

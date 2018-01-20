@@ -38,7 +38,7 @@ const Footer = () => (
           </a>
         </li>
       </ul>
-      <h6>&copy; Harman Pannu 2018</h6>
+      <h6>&copy; 2018 Harman Pannu</h6>
     </footer>
   </div>
 );
