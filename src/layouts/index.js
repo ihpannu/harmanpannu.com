@@ -33,20 +33,20 @@ const TemplateWrapper = ({ children }) => (
             <Particles params={{
   "particles": {
     "number": {
-      "value": 1,
+      "value": 4,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#A49A90"
+      "value": "#5F667A"
     },
     "shape": {
       "type": "polygon",
       "stroke": {
         "width": 0,
-        "color": "#000"
+        "color": "#5F667A"
       },
       "polygon": {
         "nb_sides": 10
@@ -75,13 +75,13 @@ const TemplateWrapper = ({ children }) => (
     "line_linked": {
       "enable": false,
       "distance": 200,
-      "color": "#ffffff",
+      "color": "#5F667A",
       "opacity": 1,
       "width": 2
     },
     "move": {
       "enable": true,
-      "speed": 1,
+      "speed": 2,
       "direction": "none",
       "random": false,
       "straight": false,
