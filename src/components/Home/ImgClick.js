@@ -8,8 +8,6 @@ const Name = <div>
   <h4>Front End Web Developer</h4>
 </div>;
 
-
-
 class ImageClicked extends React.Component {
   constructor(props) {
     super(props);
@@ -29,25 +27,25 @@ class ImageClicked extends React.Component {
 
   render() {
     return (
-            <button className="button" onClick={this.handleClick}>
-              {this.state.divHide
-                ? <div className="image-normal">
-                  <img src={ProfilePic} alt="profile_picture"/> {Name}
-                  </div> 
+      <button className="button" onClick={this.handleClick}>
+        {this.state.divHide
+          ? <div className="image-normal">
+              <img src={ProfilePic} alt="profile_picture"/> {Name}
+            </div>
 
-                : <div className="image-clicked">
-                  <img src={ProfilePic} alt="profile_picture"/>
-                  
-            
-                  <h1>Hire Me &#9786;</h1>
-                  <br/>
-                  
-                  <p className="on-click-para">
-                    " Frontend Web Developer who loves to code and solve problems. Looking for a company where I can make an impact."
-                  </p>
-                </div>}
+          : <div className="image-clicked">
+            <img src={ProfilePic} alt="profile_picture"/>
 
-            </button>
+            <h1>Hire Me &#9786;</h1>
+            <br/>
+
+            <p className="on-click-para">
+              " Frontend Web Developer who loves to code and solve problems. Looking for a
+              company where I can make an impact."
+            </p>
+          </div>}
+
+      </button>
     )
   }
 }
