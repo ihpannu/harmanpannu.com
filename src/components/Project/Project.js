@@ -34,9 +34,9 @@ const projects = [
   }, {
     title: "Find an Agent",
     link: "http://findagent.surge.sh ",
-    desc: "Static real estate agent company website <br />Built With: HTML, SASS and Transi" +
-        "tions",
-    src: "https://media.giphy.com/media/3oFzmkH3TIrHbmVTDW/giphy.gif"
+    desc: "Responsive Static Real Estate Agent Company website.  <br />Built With: HTML, SA" +
+        "SS and CSS Transitions",
+    src: "https://media.giphy.com/media/3o752aC2HId35LfDdC/giphy.gif"
   }, {
     title: "Simple Portfolio",
     link: "http://project-one-td.surge.sh",
