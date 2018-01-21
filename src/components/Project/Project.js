@@ -19,12 +19,12 @@ const projects = [
     link: "https://iharmanpannu.github.io/ravenous",
     desc: "A restaurant search Web App created using Yelp API : Built With: React JS, Yelp " +
         "API's, fetch",
-    src: "https://media.giphy.com/media/l0HTYUDLAi6Nuyruw/giphy.gif"
+    src: "https://media.giphy.com/media/3oFzmftmJx84DQhaBa/giphy.gif"
   }, {
     title: "Gif Search",
     link: "http://gifs-search.surge.sh",
     desc: "Giphy Search Web App created using Giphy.com API's and React JS",
-    src: ""
+    src: "https://media.giphy.com/media/3o752aC2HId35LfDdC/giphy.gif"
   }, {
     title: "Taico Restaurant ",
     link: "http://taicorestaurant.surge.sh",
