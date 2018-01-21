@@ -4,8 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3em 1em 0 1em;
-    // margin-top: 3em;
+    padding: 3em 1em 0 1em; // margin-top: 3em;
     margin: auto;
     .project-title {
         a:hover {
@@ -25,5 +24,20 @@
     }
     a:hover {
         color: $c-green;
+    }
+}
+
+.project-gifs {
+    width: 300px;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    h3,
+    p {
+        float: left;
+        clear: both;
+        max-width: 60%;
+        padding-right: 50px;
     }
 }
