@@ -1,42 +1,46 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    // margin-top: 3em;
-    max-width: 960px;
-    padding: 3em 1em 0 1em;
-    margin: auto;
-    a:hover {
-        color: $c-pink;
-    }
-    .h {
-        color: $c-pink;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 3em;
+  max-width: 960px;
+  padding: 3em 1em 0 1em;
+  margin: auto;
+  a:hover {
+    color: $c-pink;
+  }
+  .h {
+    color: $c-pink;
+  }
+  h1 {
+    font-size: 2rem;
+    color: $c-pink;
+  }
+  h2,
+  h3 {
+    color: $c-pink;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .quote {
+    line-height: 2;
+    font-size: 1.3rem;
+    color: $c-gray;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  .resume-inside {
+    margin-top: 3em;
     h1 {
-        font-size: 2rem;
-        color: $c-pink;
+      font-size: 2rem;
     }
-    h2,
     h3 {
-        color: $c-pink;
+      font-size: 1.25rem;
     }
-    p {
-        font-size: 1.1rem;
+    .list li {
+      display: inline-block;
+      color: $c-gray;
     }
-    .quote {
-        line-height: 2;
-        color: $c-gray;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .resume-inside {
-        margin-top: 3em;
-        h3 {
-            font-size: 1.25rem;
-        }
-        .list li {
-            display: inline-block;
-            color: $c-gray;
-        }
-    }
+  }
 }
