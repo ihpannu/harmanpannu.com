@@ -14,6 +14,7 @@
         "gatsby-plugin-offline": "^1.0.13",
         "gatsby-plugin-react-helmet": "^2.0.3",
         "gatsby-plugin-sass": "^1.0.15",
+        "react-anime": "^2.1.0",
         "react-helmet": "^5.2.0",
         "react-particles-js": "^2.1.0"
     },

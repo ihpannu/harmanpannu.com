@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 import ProfilePic from "../../asset/profile.png";
+// import Anime from "react-anime";
+
 const Name = (
   <div>
     <h1 className="name spin">Harman Pannu</h1>
@@ -22,6 +24,8 @@ class ImageClicked extends React.Component {
       divHide: !prevState.divHide
     }));
   }
+
+  //  <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}> </Anime>
 
   render() {
     return (

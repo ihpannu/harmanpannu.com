@@ -1,54 +1,95 @@
 import React from "react";
 import Footer from "../Footer/Footer";
+import fontawesome from "@fortawesome/fontawesome";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
 const projects = [
   {
-    title: "Harmanpannu.com",
-    link: "http://harmanpannu.com",
-    desc: "My personal portfolio website : <br/> Built with: Gatsby JS (ReactJs), SCSS and " +
-        "Used library Particle JS for background animations.",
+    title: "Harmanpannu.com ",
+    github: "https://github.com/iharmanpannu",
+    link: "https://harmanpannu.com/",
+    desc:
+      "My personal portfolio website : <br/> Built with: Gatsby JS (ReactJs), SCSS and " +
+      "Used library Particle JS for background animations.",
     src: "https://media.giphy.com/media/l0HUao3pHOJA8zXZC/giphy.gif"
-  }, {
-    title: "Jamming",
+  },
+  {
+    title: "Jamming ",
+    github: "https://github.com/iharmanpannu/jamming-app",
     link: "http://jamwithme.surge.sh/",
-    desc: "Spotify Track search and Save Playlist Web App : <br /> Build using Spotify API'" +
-        "s and React JS",
+    desc:
+      "Spotify Track search and Save Playlist Web App : <br /> Build using Spotify API'" +
+      "s and React JS",
     src: "https://media.giphy.com/media/xULW8MrR8F5f0YuW8o/giphy.gif"
-  }, {
-    title: "Ravenous",
+  },
+  {
+    title: "Ravenous ",
+    github: "https://github.com/iharmanpannu/ravenous",
     link: "https://iharmanpannu.github.io/ravenous",
-    desc: "A restaurant search Web App created using Yelp API : Built With: React JS, Yelp " +
-        "API's, fetch",
+    desc:
+      "A restaurant search Web App created using Yelp API : Built With: React JS, Yelp " +
+      "API's, fetch",
     src: "https://media.giphy.com/media/3oFzmftmJx84DQhaBa/giphy.gif"
-  }, {
-    title: "Gif Search",
+  },
+  {
+    title: "Gif Search ",
+
+    github: "https://github.com/iharmanpannu/gif-search",
     link: "http://gifs-search.surge.sh",
     desc: "Giphy Search Web App created using Giphy.com API's and React JS",
     src: "https://media.giphy.com/media/3o752aC2HId35LfDdC/giphy.gif"
-  }, {
+  },
+  {
     title: "Taico Restaurant ",
+    github: "https://github.com/iharmanpannu/taico-restaurant",
     link: "http://taicorestaurant.surge.sh",
-    desc: "Restaurant Business Parallax Website <br />Built With: HTML, SCSS, CSS Transitio" +
-        "ns and CSS Library Animations.css",
-    src: "https://media.giphy.com/media/xULW8p4tnxfVELw7xS/giphy.gif"
-  }, {
-    title: "Find an Agent",
+    desc:
+      "Restaurant Business Parallax Website <br />Built With: jQuery, HTML, CSS Transitio" +
+      "ns and CSS Library Animations.css",
+    src: "https://media.giphy.com/media/3ohs4zc09VEYDgHFYc/giphy.gif"
+  },
+  {
+    title: "Find an Agent ",
+    github: "https://github.com/iharmanpannu/find-agent",
     link: "http://findagent.surge.sh ",
-    desc: "Responsive Static Real Estate Agent Company website.  <br />Built With: HTML, SA" +
-        "SS and CSS Transitions",
+    desc:
+      "Responsive Static Real Estate Agent Company website.  <br />Built With: HTML, SA" +
+      "SS and CSS Transitions",
     src: "https://media.giphy.com/media/3oFzmkH3TIrHbmVTDW/giphy.gif"
-  }, {
-    title: "Simple Portfolio",
+  },
+  {
+    title: "Simple Portfolio ",
+    github: "https://github.com/iharmanpannu/td-project-two",
     link: "http://project-one-td.surge.sh",
-    desc: "Frontend Tech Degree Project 1 : <br/> Built with: HTML, CSS Flexbox layout syst" +
-        "em and CSS Transitions ",
+    desc:
+      "Frontend Tech Degree Project 1 : <br/> Built with: HTML, CSS Flexbox layout syst" +
+      "em and CSS Transitions ",
     src: "https://media.giphy.com/media/xULW8vXxaNz9xlRS3C/giphy.gif"
-  }, {
-    title: "Responsive Portfolio",
+  },
+  {
+    title: "Responsive Portfolio ",
+    github: "https://github.com/iharmanpannu/td-project-one",
     link: "http://td-project-2.surge.sh/",
-    desc: "Frontend Tech Degree Project 2 : <br/> Built with: HTML, CSS Grid and Flexbox la" +
-        "yout system. Also used CSS Animations.",
+    desc:
+      "Frontend Tech Degree Project 2 : <br/> Built with: HTML, CSS Grid and Flexbox la" +
+      "yout system. Also used CSS Animations.",
     src: "https://media.giphy.com/media/l0HTYUDLAi6Nuyruw/giphy.gif"
+  },
+  {
+    title: "jQuery Blog ",
+    github: "https://github.com/iharmanpannu/jQueryBlog",
+    link: "http://jqueryblog.surge.sh/",
+    desc:
+      "jQuery Blog where user can type in input field and immediately see results on the webpage : <br/> Built with: jQuery, HTML, CSS",
+    src: "https://media.giphy.com/media/3o7WIJ9Oscwu3AW0H6/giphy.gif"
+  },
+  {
+    title: "A Responsive Form ",
+    github: "https://github.com/iharmanpannu/td-project-3",
+    link: "http://thecodereview.surge.sh",
+    desc:
+      "A responsive sign up form for 'The Code Review' website. <br/> Built with: HTML, CSS, FlexBox ",
+    src: "https://media.giphy.com/media/xULW8mdl8lvLYx9zgc/giphy.gif"
   }
 ];
 
@@ -58,30 +99,39 @@ const Project = () => (
       <h1>Projects</h1>
       <ul>
         {projects.map(project => (
-          <li >
+          <li>
             <h3 className="project-title">
               <a
                 target="_blank"
                 href={project.link}
                 style={{
-                color: "#16a085"
-              }}>
+                  color: "#16a085"
+                }}
+              >
                 {project.title}
+              </a>
+              <a
+                target="_blank"
+                href={project.github}
+                style={{
+                  color: "#F16D7E"
+                }}
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} className="tooltip" />
               </a>
             </h3>
             <p
               dangerouslySetInnerHTML={{
-              __html: project.desc
-            }}/>
-            <img className="project-gifs" src={project.src} alt="projects"/>
+                __html: project.desc
+              }}
+            />
+            <img className="project-gifs" src={project.src} alt="projects" />
           </li>
-
         ))}
-
       </ul>
-      <Footer/>
+      <Footer />
     </section>
   </div>
 );
 
-export default Project
+export default Project;
