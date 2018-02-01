@@ -35,10 +35,18 @@ const AboutPage = () => (
           <h1>Resume</h1>
           <ul className="summary">
             <h3>Skills in Web Development</h3>
-            <li>HTML, CSS, JavaScript, React JS, Gatsby JS, Graph-ql, SCSS</li>
+            <li>
+              HTML, CSS, JavaScript, React JS, Gatsby JS, jQuery, RESTful
+              Services and APIs, Graph-ql, SCSS, Version Control/Git, Responsive
+              and Mobile Design
+            </li>
             <li>
               Github, JSON, AJAX, Webservices API's, Youtube API, Spotify API,
-              Google Api
+              Google Api, AWS, Testing/Debugging
+            </li>
+            <li>
+              WordPress theme design, Problem Solving and Attention to Detail,
+              Command Line, Visual Studio Code, UI/UX
             </li>
             <li>
               Front-end design, Front-end coding, Adobe PS - AI - PP, Wordpress
@@ -47,7 +55,13 @@ const AboutPage = () => (
             <h3>Skills in General</h3>
             <li>
               Excellent organization, self-motivation, and problem-solving
-              skills.
+              skills, Flexible, Resourceful & Reliable Collaboration &
+              Communication Commitment
+            </li>
+            <li>
+              Enthusiasm & Motivation, Management & Leadership, Optimising Team
+              Performance, High Pressure Work Environments, Deadline & Target
+              Management, Empathy & Cultural Awareness, Constructive Feedback
             </li>
             <li>Creative, and strong communication skills.</li>
             <li>Passionate about web development and new technologies.</li>
