@@ -9,16 +9,21 @@ const AboutPage = () => (
       <h1>About</h1>
       <div>
         <p>
-          Hi, Stranger 🙃, <br /> I am Harman Pannu experienced in building
-          Frontend Web Applications in React JS and Static Websites in Gatsby JS
-          and in Html, CSS, JS. Currently, I am seeking to Learn and Grow under
-          Mentorship of Proficient Developers. I am very passionate about
-          learning new technologies and solving problems.
+          Hi, Stranger 🙃, <br /> I am Web Developer specializing in front-end
+          web development. Experienced in building Web Applications in React JS
+          and static websites in Gatsby JS(React) and in Html, CSS, JS, and
+          jQuery. I also have experience in working with RESTful API's. I tend
+          to write lots of Javascript and have a genuine passion for web. I like
+          little details, love interactivity, and UI & UX.
         </p>
         <p>
-          I code every day and when I am not coding I read books, watch
-          programming tutorials online, listen to podcasts, learn new
-          technologies and workout. Check out my project on -
+          I believe in simplicity and consistency. Currently, I am seeking to
+          learn and grow under the mentorship of proficient developers. I am
+          very passionate about learning new technologies and solving problems.
+          Looking for a company to help solve problems.
+        </p>
+        <p>
+          Check out my projects on -
           <a href="https://github.com/iharmanpannu"> Github </a>
           I look forward to applying my coding experience to a career in tech.
         </p>

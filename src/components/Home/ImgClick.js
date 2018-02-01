@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
 import ProfilePic from "../../asset/profile.png";
-// import Anime from "react-anime";
+import fontawesome from "@fortawesome/fontawesome";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 
 const Name = (
   <div>
@@ -38,12 +39,20 @@ class ImageClicked extends React.Component {
           <div className="image-clicked">
             <img src={ProfilePic} alt="profile_picture" />
 
-            <h1>Hire Me &#9786;</h1>
+            <h1>
+              Let's work together{" "}
+              <a href="tel://1-206-566-8477">
+                <FontAwesomeIcon
+                  icon={["fab", "whatsapp"]}
+                  style={{ color: "#5ABBA5" }}
+                />
+              </a>
+            </h1>
             <br />
 
             <p className="on-click-para">
-              "Frontend Web Developer 👨🏻‍💻 who loves to code and solve problems.
-              Looking for a company where I can make an impact."
+              Software Engineer 👨🏻‍💻 actively looking for a company to help solve
+              problems.
             </p>
           </div>
         )}

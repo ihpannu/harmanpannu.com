@@ -4,8 +4,9 @@ $c-gray: #585858;
 $c-pink: #f16d7e;
 $c-blue: #289ef2;
 $c-green: #16a085;
-$c-cream: #fdf6ec;
-// $c-cream: #111011;
+// $c-cream: #fdf6ec;
+$c-cream: #fffeff;
+// $c-cream: #333233;
 nav,
 ul,
 li,
@@ -21,7 +22,7 @@ h6 {
   //   font-family: "Rammetto One", cursive;
   font-family: "Josefin Sans", sans-serif;
   // color: #FDEBD4;
-  color: #272b34;
+  color: $c-gray;
   margin: 0.3em 0;
   line-height: 1.5;
 }
@@ -35,7 +36,7 @@ h4 {
 
 p,
 a {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 li {
