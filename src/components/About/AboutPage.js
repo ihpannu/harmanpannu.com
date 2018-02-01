@@ -61,9 +61,12 @@ const AboutPage = () => (
             <li>
               Enthusiasm & Motivation, Management & Leadership, Optimising Team
               Performance, High Pressure Work Environments, Deadline & Target
-              Management, Empathy & Cultural Awareness, Constructive Feedback
+              Management
             </li>
-            <li>Creative, and strong communication skills.</li>
+            <li>
+              Creative, and strong communication skills, Empathy & Cultural
+              Awareness, Constructive Feedback
+            </li>
             <li>Passionate about web development and new technologies.</li>
           </ul>
           <br />
