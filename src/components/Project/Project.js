@@ -131,15 +131,17 @@ const Project = () => (
               >
                 {project.title}
               </a>
-              <a
-                target="_blank"
-                href={project.github}
-                style={{
-                  color: "#F16D7E"
-                }}
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} className="tooltip" />
-              </a>
+              <h4>
+                <a
+                  target="_blank"
+                  href={project.github}
+                  style={{
+                    color: "#F16D7E"
+                  }}
+                >
+                  Github Code
+                </a>
+              </h4>
               <h4>
                 <a
                   target="_blank"
