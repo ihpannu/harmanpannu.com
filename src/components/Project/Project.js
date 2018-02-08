@@ -6,6 +6,7 @@ import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 const projects = [
   {
     title: "Harmanpannu.com ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu",
     link: "https://harmanpannu.com/",
     desc:
@@ -15,6 +16,7 @@ const projects = [
   },
   {
     title: "Jamming ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/jamming-app",
     link: "http://jamwithme.surge.sh/",
     desc:
@@ -24,6 +26,7 @@ const projects = [
   },
   {
     title: "Ravenous ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/ravenous",
     link: "https://iharmanpannu.github.io/ravenous",
     desc:
@@ -33,6 +36,7 @@ const projects = [
   },
   {
     title: "Gif Search ",
+    LiveDemo: "Live Demo",
 
     github: "https://github.com/iharmanpannu/gif-search",
     link: "http://gifs-search.surge.sh",
@@ -41,6 +45,7 @@ const projects = [
   },
   {
     title: "Taico Restaurant ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/taico-restaurant",
     link: "http://taicorestaurant.surge.sh",
     desc:
@@ -49,7 +54,18 @@ const projects = [
     src: "https://media.giphy.com/media/3ohs4zc09VEYDgHFYc/giphy.gif"
   },
   {
+    title: "Design Agency ",
+    LiveDemo: "Live Demo",
+    github: "https://github.com/iharmanpannu/Design-Solutions",
+    link: "https://designagency.surge.sh/",
+    desc:
+      "Another side project website for design agency. <br />Built With: jQuery, HTML, CSS Transitio" +
+      "ns and CSS Animations",
+    src: "https://media.giphy.com/media/xUOwG4dlVaNGzVdIv6/giphy.gif"
+  },
+  {
     title: "Find an Agent ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/find-agent",
     link: "http://findagent.surge.sh ",
     desc:
@@ -59,6 +75,7 @@ const projects = [
   },
   {
     title: "Simple Portfolio ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/td-project-two",
     link: "http://project-one-td.surge.sh",
     desc:
@@ -68,6 +85,7 @@ const projects = [
   },
   {
     title: "Responsive Portfolio ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/td-project-one",
     link: "http://td-project-2.surge.sh/",
     desc:
@@ -77,6 +95,7 @@ const projects = [
   },
   {
     title: "jQuery Blog ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/jQueryBlog",
     link: "http://jqueryblog.surge.sh/",
     desc:
@@ -85,6 +104,7 @@ const projects = [
   },
   {
     title: "A Responsive Form ",
+    LiveDemo: "Live Demo",
     github: "https://github.com/iharmanpannu/td-project-3",
     link: "http://thecodereview.surge.sh",
     desc:
@@ -100,7 +120,8 @@ const Project = () => (
       <ul>
         {projects.map(project => (
           <li>
-            <h3 className="project-title">
+            <h3 className="project-
+      title">
               <a
                 target="_blank"
                 href={project.link}
@@ -119,13 +140,27 @@ const Project = () => (
               >
                 <FontAwesomeIcon icon={["fab", "github"]} className="tooltip" />
               </a>
+              <h4>
+                <a
+                  target="_blank"
+                  href={project.link}
+                  style={{
+                    color: "#F06C7D"
+                  }}
+                >
+                  {project.LiveDemo}
+                </a>
+              </h4>
             </h3>
+
             <p
               dangerouslySetInnerHTML={{
                 __html: project.desc
               }}
             />
-            <img className="project-gifs" src={project.src} alt="projects" />
+            <a target="_blank" href={project.link}>
+              <img className="project-gifs" src={project.src} alt="projects" />
+            </a>
           </li>
         ))}
       </ul>
