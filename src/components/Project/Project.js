@@ -136,10 +136,11 @@ const Project = () => (
                   target="_blank"
                   href={project.github}
                   style={{
-                    color: "#F16D7E"
+                    color: "#585758",
+                    fontWeight: "700"
                   }}
                 >
-                  Github Code
+                  Github
                 </a>
               </h4>
               <h4>

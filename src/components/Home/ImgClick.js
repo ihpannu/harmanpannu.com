@@ -26,8 +26,6 @@ class ImageClicked extends React.Component {
     }));
   }
 
-  //  <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}> </Anime>
-
   render() {
     return (
       <button className="button" onClick={this.handleClick}>
