@@ -35,7 +35,7 @@ class ImageClicked extends React.Component {
               <figure className="effect-sadie">
                 <img src={ProfilePic} alt="profile_picture" />
                 <figcaption>
-                  <p>hey </p>
+                  <p>Be Gentle </p>
                 </figcaption>
               </figure>
             </div>
