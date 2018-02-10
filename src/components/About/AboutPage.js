@@ -97,7 +97,7 @@ const AboutPage = () => (
               Applications from scratch -
             </li>
             <ul className="list">
-              <h4>Technologies I Learned</h4>
+              <p>Technologies I Learned</p>
               <li>JavaScript</li>
               <li>React JS</li>
               <li>Web API's</li>
