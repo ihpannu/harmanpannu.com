@@ -98,7 +98,7 @@ const AboutPage = () => (
             </li>
             <ul className="list">
               <p>Technologies I Learned</p>
-              <li>JavaScript</li>
+              <li style={{ color: "#E94A61" }}>JavaScript</li>
               <li>React JS</li>
               <li>Web API's</li>
               <li>AJAX, XHR and JSON</li>
