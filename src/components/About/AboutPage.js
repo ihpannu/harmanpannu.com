@@ -114,8 +114,8 @@ const AboutPage = () => (
               <li style={{ color: "#56C0DE" }}>React JS</li>
               <li style={{ color: "#1267AD" }}>jQuery</li>
               <li style={{ color: "#016E00" }}>Node.js</li>
-              <li>Express</li>
-              <li>MongoDB</li>
+              <li style={{ color: "#309BFF" }}>Express</li>
+              <li style={{ color: "#68B33F" }}>MongoDB</li>
             </ul>
             <br />
             <li>
