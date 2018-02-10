@@ -3,10 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // margin-top: 3em;
   max-width: 960px;
   padding: 3em 1em 0 1em;
   margin: auto;
+  hr {
+    background: rgba(133, 133, 133, 0.342);
+    height: 1px;
+    border: none;
+    width: 20%;
+  }
   a:hover {
     color: $c-pink;
   }
@@ -14,7 +19,7 @@
     color: $c-pink;
   }
   h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color: $c-pink;
   }
   h2,
@@ -22,11 +27,11 @@
     color: $c-pink;
   }
   p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .quote {
     line-height: 2;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: $c-gray;
     font-family: "Josefin Sans", sans-serif;
   }
@@ -42,5 +47,16 @@
       display: inline-block;
       color: $c-gray;
     }
+  }
+}
+
+.summary,
+.education {
+  li,
+  p {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 0.9em;
   }
 }

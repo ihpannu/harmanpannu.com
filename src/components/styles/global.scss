@@ -1,5 +1,5 @@
 // Variables
-$c-gray: #585858;
+$c-gray: #333233;
 // $c-gray: #fff;
 $c-pink: #f16d7e;
 $c-blue: #289ef2;
@@ -7,6 +7,9 @@ $c-green: #16a085;
 // $c-cream: #fdf6ec;
 $c-cream: #fffeff;
 // $c-cream: #333233;
+$white_80: rgba(70, 146, 218, 0.9);
+$color_trout_80_approx: rgba(70, 146, 218, 0.5);
+$color_trout_approx: #4692da;
 nav,
 ul,
 li,
@@ -20,14 +23,17 @@ h4,
 h5,
 h6 {
   //   font-family: "Rammetto One", cursive;
-  font-family: "Josefin Sans", sans-serif;
+  // font-family: "Josefin Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   // color: #FDEBD4;
   color: $c-gray;
   margin: 0.3em 0;
   line-height: 1.5;
 }
 h1 {
-  font-family: "Rammetto One", cursive;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  // font-family: "Rammetto One", cursive;
 }
 h4 {
   font-weight: 400;

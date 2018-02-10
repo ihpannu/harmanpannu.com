@@ -11,7 +11,7 @@ const AboutPage = () => (
         <p>
           Hi, Stranger 🙃, <br /> I am Web Developer specializing in front-end
           web development. Experienced in building Web Applications in React JS
-          and static websites in Gatsby JS(React) and in Html, CSS, JS, and
+          and static websites in Gatsby JS (React) and in Html, CSS, JS, and
           jQuery. I also have experience in working with RESTful API's. I tend
           to write lots of Javascript and have a genuine passion for web. I like
           little details, love interactivity, and UI & UX.
@@ -33,11 +33,11 @@ const AboutPage = () => (
           " There are no secrets to success. It is the result of preparation,
           hard work, and learning from failure. "
         </i>
+        <hr />
       </div>
 
       <div>
         <div className="resume-inside">
-          <h1>Resume</h1>
           <ul className="summary">
             <h3>Skills in Web Development</h3>
             <li>
@@ -57,6 +57,8 @@ const AboutPage = () => (
               Front-end design, Front-end coding, Adobe PS - AI - PP, Wordpress
             </li>
             <br />
+            <hr />
+            <br />
             <h3>Skills in General</h3>
             <li>
               Excellent organization, self-motivation, and problem-solving
@@ -75,16 +77,18 @@ const AboutPage = () => (
             <li>Passionate about web development and new technologies.</li>
           </ul>
           <br />
+          <hr />
+          <br />
           <h3>Education </h3>
           <ul className="education">
             <li>
               Karnataka State Open University - Bachelors of Computer
               Applications 2016
-              <li>
+              <p>
                 Mathematics, C++, Algorithm and Analysis, Java, Web Design
                 Software, Engineering, Unix and Shell Programming, Relational
                 Database Management System.
-              </li>
+              </p>
             </li>
 
             <br />
