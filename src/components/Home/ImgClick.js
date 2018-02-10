@@ -7,7 +7,6 @@ import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 const Name = (
   <div>
     <h1 className="name spin">Harman Pannu</h1>
-
     <h4>Front End Web Developer</h4>
   </div>
 );
@@ -31,8 +30,16 @@ class ImageClicked extends React.Component {
     return (
       <button className="button" onClick={this.handleClick}>
         {this.state.divHide ? (
-          <div className="image-normal">
-            <img src={ProfilePic} alt="profile_picture" /> {Name}
+          <div>
+            <div className="image-normal grid">
+              <figure className="effect-sadie">
+                <img src={ProfilePic} alt="profile_picture" />
+                <figcaption>
+                  <p>hey </p>
+                </figcaption>
+              </figure>
+            </div>
+            {Name}
           </div>
         ) : (
           <div className="image-clicked">
