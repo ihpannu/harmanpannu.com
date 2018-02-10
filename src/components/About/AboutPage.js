@@ -99,9 +99,9 @@ const AboutPage = () => (
             <ul className="list">
               <p>Technologies I Learned</p>
               <li style={{ color: "#E94A61" }}>JavaScript</li>
-              <li>React JS</li>
-              <li>Web API's</li>
-              <li>AJAX, XHR and JSON</li>
+              <li style={{ color: "#56C0DE" }}>React JS</li>
+              <li style={{ color: "#836EA7" }}>RESTful Services and APIs</li>
+              <li style={{ color: "#62B9A6" }}>AJAX, XHR and JSON</li>
             </ul>
             <br />
             <li>
@@ -110,10 +110,10 @@ const AboutPage = () => (
             </li>
             <ul className="list">
               <h4>Technologies I am currently Learning at Treehouse</h4>
-              <li>JavaScript</li>
-              <li>React JS</li>
-              <li>jQuery</li>
-              <li>Node.js</li>
+              <li style={{ color: "#E94A61" }}>JavaScript</li>
+              <li style={{ color: "#56C0DE" }}>React JS</li>
+              <li style={{ color: "#1267AD" }}>jQuery</li>
+              <li style={{ color: "#016E00" }}>Node.js</li>
               <li>Express</li>
               <li>MongoDB</li>
             </ul>

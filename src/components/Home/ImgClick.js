@@ -48,7 +48,6 @@ class ImageClicked extends React.Component {
         ) : (
           <div className="image-clicked">
             <img src={ProfilePic} alt="profile_picture" />
-
             <h1>
               Let's work together{" "}
               <a href="tel://1-206-566-8477">
