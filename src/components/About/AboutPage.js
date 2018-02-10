@@ -123,9 +123,10 @@ const AboutPage = () => (
             </li>
             <ul className="list">
               <h4>Technologies I Learned</h4>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SCSS</li>
+              <li style={{ color: "#E24D25" }}>HTML</li>
+              <li style={{ color: "#315FF1" }}>CSS</li>
+              <li style={{ color: "#CE629A" }}>SCSS</li>
+              <li style={{ color: "#1267AD" }}>jQuery</li>
             </ul>
           </ul>
         </div>
