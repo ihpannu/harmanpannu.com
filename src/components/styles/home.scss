@@ -309,7 +309,6 @@ figure {
     &:hover {
       figcaption::before {
         opacity: 1;
-        //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
         transform: translate3d(0, 0, 0);
       }
       p {

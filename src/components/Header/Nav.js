@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 // import Particles from "react-particles-js";
-import Resume from "../../asset/harman-resume.pdf";
+// import Resume from "../../asset/harman-resume.pdf";
 
 const Nav = () => (
   <header>
@@ -21,11 +21,6 @@ const Nav = () => (
           <Link id="projects-link" to="/projects/">
             Projects
           </Link>
-        </li>
-        <li>
-          <a href={Resume} target="_blank">
-            Resume
-          </a>
         </li>
       </ul>
     </nav>

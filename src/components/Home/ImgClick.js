@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import ProfilePic from "../../asset/profile.png";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import Resume from "../../asset/harman-resume.pdf";
 
 const Name = (
   <div>
@@ -35,7 +36,9 @@ class ImageClicked extends React.Component {
               <figure className="effect-sadie">
                 <img src={ProfilePic} alt="profile_picture" />
                 <figcaption>
-                  <p>Click Me</p>
+                  <p>
+                    Click Me <br /> H
+                  </p>
                 </figcaption>
               </figure>
             </div>
@@ -53,6 +56,11 @@ class ImageClicked extends React.Component {
                   style={{ color: "#5ABBA5" }}
                 />
               </a>
+              <li>
+                <a href={Resume} target="_blank" style={{ color: "#5ABAA5" }}>
+                  Download Resume
+                </a>
+              </li>
             </h1>
             <br />
 
