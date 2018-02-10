@@ -9,12 +9,12 @@ const AboutPage = () => (
       <h1>About</h1>
       <div>
         <p>
-          Hi, Stranger 🙃, <br /> I am Web Developer specializing in front-end
-          web development. Experienced in building Web Applications in React JS
-          and static websites in Gatsby JS (React) and in Html, CSS, JS, and
-          jQuery. I also have experience in working with RESTful API's. I tend
-          to write lots of Javascript and have a genuine passion for web. I like
-          little details, love interactivity, and UI & UX.
+          Hello there, <br /> I am Web Developer specializing in front-end web
+          development. Experienced in building Web Applications in React JS and
+          static websites in Gatsby JS (React) and in Html, CSS, JS, and jQuery.
+          I also have experience in working with RESTful API's. I tend to write
+          lots of Javascript and have a genuine passion for web. I like little
+          details, love interactivity, and UI & UX.
         </p>
         <p>
           I believe in simplicity and consistency. Currently, I am seeking to

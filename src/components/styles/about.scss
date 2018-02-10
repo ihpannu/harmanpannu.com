@@ -52,10 +52,12 @@
 
 .summary,
 .education {
+  li {
+    word-spacing: 4px;
+  }
   li,
   p {
     font-size: 1.2em;
-    word-spacing: 2px;
   }
   p {
     font-size: 0.9em;
