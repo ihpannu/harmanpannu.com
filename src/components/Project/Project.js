@@ -2,6 +2,11 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import Myweb from "../../asset/mywebsite.png";
+import Jamming from "../../asset/jamming.jpg";
+import Ravenous from "../../asset/ravenous.jpg";
+import GifSearch from "../../asset/gif-search.jpg";
+import Taico from "../../asset/taico.jpg";
 
 const projects = [
   {
@@ -12,7 +17,7 @@ const projects = [
     desc:
       "My personal portfolio website : <br/> Built with: Gatsby JS (ReactJs), SCSS and " +
       "Used library Particle JS for background animations.",
-    src: "https://media.giphy.com/media/l0HUao3pHOJA8zXZC/giphy.gif"
+    src: Myweb
   },
   {
     title: "Jamming ",
@@ -22,7 +27,7 @@ const projects = [
     desc:
       "Spotify Track search and Save Playlist Web App : <br /> Build using Spotify API'" +
       "s and React JS",
-    src: "https://media.giphy.com/media/xULW8MrR8F5f0YuW8o/giphy.gif"
+    src: Jamming
   },
   {
     title: "Ravenous ",
@@ -32,7 +37,7 @@ const projects = [
     desc:
       "A restaurant search Web App created using Yelp API : Built With: React JS, Yelp " +
       "API's, fetch",
-    src: "https://media.giphy.com/media/3oFzmftmJx84DQhaBa/giphy.gif"
+    src: Ravenous
   },
   {
     title: "Gif Search ",
@@ -41,7 +46,7 @@ const projects = [
     github: "https://github.com/iharmanpannu/gif-search",
     link: "http://gifs-search.surge.sh",
     desc: "Giphy Search Web App created using Giphy.com API's and React JS",
-    src: "https://media.giphy.com/media/3o752aC2HId35LfDdC/giphy.gif"
+    src: GifSearch
   },
   {
     title: "Taico Restaurant ",
@@ -51,7 +56,7 @@ const projects = [
     desc:
       "Restaurant Business Parallax Website <br />Built With: jQuery, HTML, CSS Transitio" +
       "ns and CSS Library Animations.css",
-    src: "https://media.giphy.com/media/3ohs4zc09VEYDgHFYc/giphy.gif"
+    src: Taico
   },
   {
     title: "Design Agency ",
@@ -117,6 +122,7 @@ const Project = () => (
   <div>
     <section className="projects">
       <h1>Projects</h1>
+      {/* <img className="project-gifs" src={Myweb} alt="projects" /> */}
       <ul>
         {projects.map(project => (
           <li>
