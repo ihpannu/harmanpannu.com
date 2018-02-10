@@ -8,7 +8,7 @@ import Resume from "../../asset/harman-resume.pdf";
 const Name = (
   <div>
     <h1 className="name spin">Harman Pannu</h1>
-    <h4>Front End Web Developer</h4>
+    <h4>Front-end Web Developer</h4>
   </div>
 );
 
