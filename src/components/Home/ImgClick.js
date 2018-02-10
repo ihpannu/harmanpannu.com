@@ -4,6 +4,7 @@ import ProfilePic from "../../asset/profile.png";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import Resume from "../../asset/harman-resume.pdf";
+import * as Icons from "@fortawesome/fontawesome-free-solid";
 
 const Name = (
   <div>
@@ -36,7 +37,9 @@ class ImageClicked extends React.Component {
               <figure className="effect-sadie">
                 <img src={ProfilePic} alt="profile_picture" />
                 <figcaption>
-                  <p>Click Me</p>
+                  <p>
+                    <FontAwesomeIcon icon={Icons.faAngleDown} size="3x" />
+                  </p>
                 </figcaption>
               </figure>
             </div>
@@ -56,7 +59,7 @@ class ImageClicked extends React.Component {
               </a>
               <li>
                 <a href={Resume} target="_blank" style={{ color: "#5ABAA5" }}>
-                  Download Resume
+                  Download Resume <FontAwesomeIcon icon={Icons.faFilePdf} />
                 </a>
               </li>
             </h1>

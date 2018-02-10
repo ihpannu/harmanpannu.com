@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-// import Header from "../Header/Header"
+import * as Icons from "@fortawesome/fontawesome-free-solid";
 const Footer = () => (
   <div>
     <footer className="footer">
@@ -38,7 +38,9 @@ const Footer = () => (
           </a>
         </li>
       </ul>
-      <h6>&copy; 2018 Handmade By Me </h6>
+      <h6>
+        <FontAwesomeIcon icon={Icons.faCopyright} /> 2018 Handmade By Me
+      </h6>
     </footer>
   </div>
 );
