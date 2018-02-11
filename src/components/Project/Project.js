@@ -7,6 +7,8 @@ import Jamming from "../../asset/jamming.jpg";
 import Ravenous from "../../asset/ravenous.jpg";
 import GifSearch from "../../asset/gif-search.jpg";
 import Taico from "../../asset/taico.jpg";
+import Gif from "../../asset/giphy.gif";
+import Form from "../../asset/form.gif";
 
 const projects = [
   {
@@ -66,7 +68,7 @@ const projects = [
     desc:
       "Another side project website for design agency. <br />Built With: jQuery, HTML, CSS Transitio" +
       "ns and CSS Animations",
-    src: "https://media.giphy.com/media/xUOwG4dlVaNGzVdIv6/giphy.gif"
+    src: Gif
   },
   {
     title: "Find an Agent ",
@@ -114,7 +116,7 @@ const projects = [
     link: "http://thecodereview.surge.sh",
     desc:
       "A responsive sign up form for 'The Code Review' website. <br/> Built with: HTML, CSS, FlexBox ",
-    src: "https://media.giphy.com/media/xULW8mdl8lvLYx9zgc/giphy.gif"
+    src: Form
   }
 ];
 
@@ -126,50 +128,61 @@ const Project = () => (
       <ul>
         {projects.map(project => (
           <li>
-            <h3 className="project-
+            <div className="float-left">
+              <h3 className="project-
       title">
-              <a
-                target="_blank"
-                href={project.link}
-                style={{
-                  color: "#16a085"
-                }}
-              >
-                {project.title}
-              </a>
-              <h4>
-                <a
-                  target="_blank"
-                  href={project.github}
-                  style={{
-                    color: "#585758",
-                    fontWeight: "700"
-                  }}
-                >
-                  Github
-                </a>
-              </h4>
-              <h4>
                 <a
                   target="_blank"
                   href={project.link}
                   style={{
-                    color: "#F06C7D"
+                    color: "#16a085"
                   }}
                 >
-                  {project.LiveDemo}
+                  {project.title}
                 </a>
-              </h4>
-            </h3>
+                <h4>
+                  <a
+                    target="_blank"
+                    href={project.github}
+                    style={{
+                      color: "#585758",
+                      fontWeight: "700"
+                    }}
+                  >
+                    Github
+                  </a>
+                </h4>
+                <h4>
+                  <a
+                    target="_blank"
+                    href={project.link}
+                    style={{
+                      color: "#F06C7D"
+                    }}
+                  >
+                    {project.LiveDemo}
+                  </a>
+                </h4>
+              </h3>
 
-            <p
-              dangerouslySetInnerHTML={{
-                __html: project.desc
-              }}
-            />
-            <a target="_blank" href={project.link}>
-              <img className="project-gifs" src={project.src} alt="projects" />
-            </a>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: project.desc
+                }}
+              />
+            </div>
+
+            <div style={{ padding: "1em 0" }}>
+              <a target="_blank" href={project.link}>
+                <img
+                  style={{ padding: "1em 0" }}
+                  className="project-gifs"
+                  src={project.src}
+                  alt="projects"
+                />
+              </a>
+              <hr />
+            </div>
           </li>
         ))}
       </ul>

@@ -25,12 +25,18 @@
     color: $c-green;
   }
   @media (min-width: 768px) {
-    h3,
-    p {
+    hr {
+      display: none;
+    }
+    .float-left {
       float: left;
       clear: both;
       max-width: 60%;
       padding-right: 50px;
+    }
+    img {
+      float: right;
+      // clear: both;
     }
   }
 }
