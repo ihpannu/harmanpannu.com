@@ -9,18 +9,10 @@ import GifSearch from "../../asset/gif-search.jpg";
 import Taico from "../../asset/taico.jpg";
 import Gif from "../../asset/giphy.gif";
 import Form from "../../asset/form.gif";
+import js100 from "../../asset/100.png";
+import Projects from "../../pages/projects";
 
 const projects = [
-  {
-    title: "Harmanpannu.com ",
-    LiveDemo: "Live Demo",
-    github: "https://github.com/iharmanpannu",
-    link: "https://harmanpannu.com/",
-    desc:
-      "My personal portfolio website : <br/> Built with: Gatsby JS (ReactJs), SCSS and " +
-      "Used library Particle JS for background animations.",
-    src: Myweb
-  },
   {
     title: "Jamming ",
     LiveDemo: "Live Demo",
@@ -49,6 +41,16 @@ const projects = [
     link: "http://gifs-search.surge.sh",
     desc: "Giphy Search Web App created using Giphy.com API's and React JS",
     src: GifSearch
+  },
+  {
+    title: "Reddit Me",
+    LiveDemo: "Live Demo",
+
+    github: "https://github.com/iharmanpannu/RedditMe",
+    link: "https://github.com/iharmanpannu/RedditMe",
+    desc:
+      "A web app build in Pure ES6, fetch and Bootstrap to search articles in Reddit.com",
+    src: "https://media.giphy.com/media/fGO2HS1aYp7RzI5LIs/giphy.gif"
   },
   {
     title: "Taico Restaurant ",
@@ -117,6 +119,24 @@ const projects = [
     desc:
       "A responsive sign up form for 'The Code Review' website. <br/> Built with: HTML, CSS, FlexBox ",
     src: Form
+  },
+  {
+    title: "100 JavaScript Projects",
+    LiveDemo: "Live Demo",
+    github: "https://github.com/iharmanpannu/100-JavaScript-Projects",
+    link: "https://github.com/iharmanpannu/100-JavaScript-Projects",
+    desc: "Build 100 projects in JavaScript to be proficient in language.",
+    src: js100
+  },
+  {
+    title: "Harmanpannu.com ",
+    LiveDemo: "Live Demo",
+    github: "https://github.com/iharmanpannu",
+    link: "https://harmanpannu.com/",
+    desc:
+      "My personal portfolio website : <br/> Built with: Gatsby JS (ReactJs), SCSS and " +
+      "Used library Particle JS for background animations.",
+    src: Myweb
   }
 ];
 

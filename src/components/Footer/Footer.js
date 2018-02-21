@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Resume from "../../asset/harman-resume.pdf";
 import fontawesome from "@fortawesome/fontawesome";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import * as Icons from "@fortawesome/fontawesome-free-solid";
@@ -35,6 +36,11 @@ const Footer = () => (
         <li>
           <a href="tel://1-206-566-8477">
             <FontAwesomeIcon icon={["fab", "whatsapp"]} />
+          </a>
+        </li>
+        <li>
+          <a href={Resume} target="_blank">
+            <FontAwesomeIcon icon={Icons.faFilePdf} />
           </a>
         </li>
       </ul>
