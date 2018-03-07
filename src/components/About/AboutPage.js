@@ -73,6 +73,7 @@ const AboutPage = () => (
             </li>
 
             <br />
+            <h3>Certifications</h3>
             <li>
               Codeacademy - Nov 2017 - Jan 2018- Build front-end Web
               Applications from scratch -
