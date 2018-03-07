@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "gatsby-link";
-import Footer from "../Footer/Footer";
+import React from 'react';
+import Link from 'gatsby-link';
+import Footer from '../Footer/Footer';
 
 // About Page
 const AboutPage = () => (
@@ -9,30 +9,15 @@ const AboutPage = () => (
       <h1>About</h1>
       <div>
         <p>
-          Hello there, <br /> I am Web Developer specializing in front-end web
-          development. Experienced in building Web Applications in React JS and
-          static websites in Gatsby JS (React) and in Html, CSS, JS, and jQuery.
-          I also have experience in working with RESTful API's. I tend to write
-          lots of Javascript and have a genuine passion for web. I like little
-          details, love interactivity, and UI & UX.
-        </p>
-        <p>
-          I believe in simplicity and consistency. Currently, I am seeking to
-          learn and grow under the mentorship of proficient developers. I am
-          very passionate about learning new technologies and solving problems.
-          Looking for a company to help solve problems.
-        </p>
-        <p>
-          Check out my projects on -
-          <a href="https://github.com/iharmanpannu"> Github </a>
-          I look forward to applying my coding experience to a career in tech.
+          Web developer specializing in front-end development. Experienced in
+          developing responsive websites and web applications from scratch in
+          HTML, CSS, Javascript and Javascript frameworks such as jQuery and
+          React JS etc. I like little details and love interactivity. I believe
+          in simplicity and consistency. Passionate about learning new
+          technologies and solving problems.
         </p>
         <br />
-        <p>My favorite quote 😊 </p>
-        <i className="quote">
-          " There are no secrets to success. It is the result of preparation,
-          hard work, and learning from failure. "
-        </i>
+
         <hr />
       </div>
 
@@ -98,10 +83,10 @@ const AboutPage = () => (
             </li>
             <ul className="list">
               <p>Technologies I Learned</p>
-              <li style={{ color: "#E94A61" }}>JavaScript</li>
-              <li style={{ color: "#56C0DE" }}>React JS</li>
-              <li style={{ color: "#836EA7" }}>RESTful Services and APIs</li>
-              <li style={{ color: "#62B9A6" }}>AJAX, XHR and JSON</li>
+              <li style={{ color: '#E94A61' }}>JavaScript</li>
+              <li style={{ color: '#56C0DE' }}>React JS</li>
+              <li style={{ color: '#836EA7' }}>RESTful Services and APIs</li>
+              <li style={{ color: '#62B9A6' }}>AJAX, XHR and JSON</li>
             </ul>
             <br />
             <li>
@@ -110,12 +95,12 @@ const AboutPage = () => (
             </li>
             <ul className="list">
               <h4>Technologies I am currently Learning at Treehouse</h4>
-              <li style={{ color: "#E94A61" }}>JavaScript</li>
-              <li style={{ color: "#56C0DE" }}>React JS</li>
-              <li style={{ color: "#1267AD" }}>jQuery</li>
-              <li style={{ color: "#016E00" }}>Node.js</li>
-              <li style={{ color: "#309BFF" }}>Express</li>
-              <li style={{ color: "#68B33F" }}>MongoDB</li>
+              <li style={{ color: '#E94A61' }}>JavaScript</li>
+              <li style={{ color: '#56C0DE' }}>React JS</li>
+              <li style={{ color: '#1267AD' }}>jQuery</li>
+              <li style={{ color: '#016E00' }}>Node.js</li>
+              <li style={{ color: '#309BFF' }}>Express</li>
+              <li style={{ color: '#68B33F' }}>MongoDB</li>
             </ul>
             <br />
             <li>
@@ -123,10 +108,10 @@ const AboutPage = () => (
             </li>
             <ul className="list">
               <h4>Technologies I Learned</h4>
-              <li style={{ color: "#E24D25" }}>HTML</li>
-              <li style={{ color: "#315FF1" }}>CSS</li>
-              <li style={{ color: "#CE629A" }}>SCSS</li>
-              <li style={{ color: "#1267AD" }}>jQuery</li>
+              <li style={{ color: '#E24D25' }}>HTML</li>
+              <li style={{ color: '#315FF1' }}>CSS</li>
+              <li style={{ color: '#CE629A' }}>SCSS</li>
+              <li style={{ color: '#1267AD' }}>jQuery</li>
             </ul>
           </ul>
         </div>
