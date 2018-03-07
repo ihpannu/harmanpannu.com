@@ -23,43 +23,39 @@ const AboutPage = () => (
 
       <div>
         <div className="resume-inside">
-          <ul className="summary">
+          <ul className="summary list ">
             <h3>Skills in Web Development</h3>
-            <li>
-              HTML, CSS, JavaScript, React JS, Gatsby JS, jQuery, RESTful
-              Services and APIs, Graph-ql, SCSS, Version Control/Git, Responsive
-              and Mobile Design
-            </li>
-            <li>
-              Github, JSON, AJAX, Webservices API's, Youtube API, Spotify API,
-              Google Api, AWS, Testing/Debugging
-            </li>
-            <li>
-              WordPress theme design, Problem Solving and Attention to Detail,
-              Command Line, Visual Studio Code, UI/UX
-            </li>
-            <li>
-              Front-end design, Front-end coding, Adobe PS - AI - PP, Wordpress
-            </li>
+            <h6>Languages</h6>
+            <li style={{ color: '#E24D25' }}>HTML</li>
+            <li style={{ color: '#315FF1' }}>CSS</li>
+            <li style={{ color: '#E94A61' }}>JavaScript</li>
+            <li style={{ color: '#F5AA49' }}>SQL</li>
+            <li style={{ color: '#016E00' }}>Node.js</li>
+            <li style={{ color: '#68B33F' }}>MongoDB</li>
             <br />
-            <hr />
+            <h6>Javascript Frameworks</h6>
+            <li style={{ color: '#DC0030' }}>Angular</li>
+            <li style={{ color: '#56C0DE' }}>React JS</li>
+            {/* <li style={{ color: '#19D490' }}>Vue JS</li> */}
+            <li style={{ color: '#1267AD' }}>jQuery</li>
             <br />
-            <h3>Skills in General</h3>
-            <li>
-              Excellent organization, self-motivation, and problem-solving
-              skills, Flexible, Resourceful & Reliable Collaboration &
-              Communication Commitment
-            </li>
-            <li>
-              Enthusiasm & Motivation, Management & Leadership, Optimising Team
-              Performance, High Pressure Work Environments, Deadline & Target
-              Management
-            </li>
-            <li>
-              Creative, and strong communication skills, Empathy & Cultural
-              Awareness, Constructive Feedback
-            </li>
-            <li>Passionate about web development and new technologies.</li>
+            <h6>Other Skills</h6>
+            <li style={{ color: '#CE629A' }}>Saas</li>
+            <li style={{ color: '#836EA7' }}>RESTful Services</li>
+            <li style={{ color: '#e94a61' }}>JSON</li>
+            <li style={{ color: '#309BFF' }}>AJAX</li>
+            <li style={{ color: '#68B33F' }}>XHR</li>
+            <li style={{ color: '#dc0030' }}>APIs</li>
+            <br />
+            <li style={{ color: '#309BFF' }}>Express JS</li>
+            <li style={{ color: '#662E99' }}>Gatsby JS</li>
+            <li style={{ color: '#309BFF' }}>Wordpress</li>
+            <br />
+            <h6>Design Skills</h6>
+            <li style={{ color: '#2A1A11' }}>Adobe Illustrator</li>
+            <li style={{ color: '#48BDFF' }}>Adobe Photoshop</li>
+            <li style={{ color: '#EA6D00' }}>Sketch</li>
+            <br />
           </ul>
           <br />
           <hr />
@@ -96,6 +92,7 @@ const AboutPage = () => (
             <ul className="list">
               <h4>Technologies I am currently Learning at Treehouse</h4>
               <li style={{ color: '#E94A61' }}>JavaScript</li>
+              <li style={{ color: '#DC0030' }}>Angular</li>
               <li style={{ color: '#56C0DE' }}>React JS</li>
               <li style={{ color: '#1267AD' }}>jQuery</li>
               <li style={{ color: '#016E00' }}>Node.js</li>
@@ -113,6 +110,22 @@ const AboutPage = () => (
               <li style={{ color: '#CE629A' }}>SCSS</li>
               <li style={{ color: '#1267AD' }}>jQuery</li>
             </ul>
+            {/* <h3>Skills in General</h3>
+            <li>
+              Excellent organization, self-motivation, and problem-solving
+              skills, Flexible, Resourceful & Reliable Collaboration &
+              Communication Commitment
+            </li>
+            <li>
+              Enthusiasm & Motivation, Management & Leadership, Optimising Team
+              Performance, High Pressure Work Environments, Deadline & Target
+              Management
+            </li>
+            <li>
+              Creative, and strong communication skills, Empathy & Cultural
+              Awareness, Constructive Feedback
+            </li>
+            <li>Passionate about web development and new technologies.</li> */}
           </ul>
         </div>
       </div>
