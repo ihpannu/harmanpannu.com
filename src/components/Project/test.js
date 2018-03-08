@@ -10,19 +10,9 @@ import Taico from '../../asset/taico.jpg';
 import Gif from '../../asset/giphy.gif';
 import Form from '../../asset/form.gif';
 import js100 from '../../asset/100.png';
-import angapp from '../../asset/ang-app.png';
 import Projects from '../../pages/projects';
 
 const projects = [
-  {
-    title: 'Simple Angular App ',
-    LiveDemo: 'Live Demo',
-    github: 'https://github.com/iharmanpannu/ang-app',
-    link: 'https://ang-app.surge.sh/',
-    desc:
-      'Simple goal list app in Angular 5: Build using Angular Cli and Angular Animations',
-    src: angapp
-  },
   {
     title: 'Jamming ',
     LiveDemo: 'Live Demo',
