@@ -1,14 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Helmet from "react-helmet";
-import "./index.scss";
-import Header from "../components/Header/Header";
-import fontawesome from "@fortawesome/fontawesome";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
-import brands from "@fortawesome/fontawesome-free-brands";
-import faCheckSquare from "@fortawesome/fontawesome-free-solid/faCheckSquare";
-import Footer from "../components/Footer/Footer";
-import Particles from "react-particles-js";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import './index.scss';
+import Header from '../components/Header/Header';
+import fontawesome from '@fortawesome/fontawesome';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import brands from '@fortawesome/fontawesome-free-brands';
+import faCheckSquare from '@fortawesome/fontawesome-free-solid/faCheckSquare';
+import Footer from '../components/Footer/Footer';
+import Particles from 'react-particles-js';
 
 fontawesome.library.add(brands, faCheckSquare);
 
@@ -19,11 +19,11 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         {
           name: "Harman Pannu's Portfolio Website",
-          content: "Portfolio Website"
+          content: 'Portfolio Website'
         },
         {
-          name: "keywords",
-          content: "Portfolio Website"
+          name: 'keywords',
+          content: 'Portfolio Website'
         }
       ]}
     />
@@ -39,13 +39,13 @@ const TemplateWrapper = ({ children }) => (
             }
           },
           color: {
-            value: "#5F667A"
+            value: '#5F667A'
           },
           shape: {
-            type: "polygon",
+            type: 'polygon',
             stroke: {
               width: 0,
-              color: "#5F667A"
+              color: '#5F667A'
             },
             polygon: {
               nb_sides: 10
@@ -74,17 +74,17 @@ const TemplateWrapper = ({ children }) => (
           line_linked: {
             enable: false,
             distance: 200,
-            color: "#5F667A",
+            color: '#5F667A',
             opacity: 1,
             width: 2
           },
           move: {
             enable: true,
             speed: 2,
-            direction: "none",
+            direction: 'none',
             random: false,
             straight: false,
-            out_mode: "out",
+            out_mode: 'out',
             bounce: false,
             attract: {
               enable: false,
@@ -94,15 +94,15 @@ const TemplateWrapper = ({ children }) => (
           }
         },
         interactivity: {
-          detect_on: "window",
+          detect_on: 'window',
           events: {
             onhover: {
               enable: true,
-              mode: "repulse"
+              mode: 'repulse'
             },
             onclick: {
               enable: true,
-              mode: "push"
+              mode: 'push'
             },
             resize: true
           },
@@ -135,18 +135,18 @@ const TemplateWrapper = ({ children }) => (
         retina_detect: true
       }}
       style={{
-        width: "100%",
-        position: "fixed",
-        bottom: "0",
-        minWidth: "100%",
-        minHeight: "100%",
-        width: "auto",
-        height: "auto",
-        zIndex: "-10",
-        left: "1%",
-        transform: "translateX(-50%),"
+        width: '100%',
+        position: 'fixed',
+        bottom: '0',
+        minWidth: '100%',
+        minHeight: '100%',
+        width: 'auto',
+        height: 'auto',
+        zIndex: '-10',
+        left: '1%',
+        transform: 'translateX(-50%),'
       }}
-    />{" "}
+    />{' '}
     {children()}
   </div>
 );
