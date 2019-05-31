@@ -1,8 +1,3 @@
-//colors
-
-// @extend-elements
-// original selectors
-// .grid figure figcaption, .grid figure figcaption >a
 %extend_1 {
   position: absolute;
   top: 0;
@@ -18,34 +13,31 @@
   max-width: 1000px;
   list-style: none;
   text-align: center;
+
   figure {
     position: relative;
     float: left;
     overflow: hidden;
-    -webkit-clip-path: polygon(
-      50% 0%,
-      80% 10%,
-      100% 35%,
-      100% 70%,
-      80% 90%,
-      50% 100%,
-      20% 90%,
-      0% 70%,
-      0% 35%,
-      20% 10%
-    );
-    clip-path: polygon(
-      50% 0,
-      80% 10%,
-      100% 35%,
-      100% 70%,
-      80% 90%,
-      50% 100%,
-      20% 90%,
-      0 70%,
-      0 35%,
-      20% 10%
-    );
+    -webkit-clip-path: polygon(50% 0%,
+        80% 10%,
+        100% 35%,
+        100% 70%,
+        80% 90%,
+        50% 100%,
+        20% 90%,
+        0% 70%,
+        0% 35%,
+        20% 10%);
+    clip-path: polygon(50% 0,
+        80% 10%,
+        100% 35%,
+        100% 70%,
+        80% 90%,
+        50% 100%,
+        20% 90%,
+        0 70%,
+        0 35%,
+        20% 10%);
     text-align: center;
     cursor: pointer;
 
@@ -53,9 +45,11 @@
       color: $c-cream;
       backface-visibility: hidden;
     }
+
     figcaption::before {
       pointer-events: none;
     }
+
     figcaption::after {
       pointer-events: none;
     }
@@ -66,6 +60,7 @@
     }
   }
 }
+
 figure {
   &.effect-lily {
     p {
@@ -79,12 +74,14 @@ figure {
       transition: opacity 0.2s, transform 0.35s;
       transition: opacity 0.2s, transform 0.35s, -webkit-transform 0.35s;
     }
+
     &:hover {
       img {
         opacity: 1;
         //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
         transform: translate3d(0, 0, 0);
       }
+
       p {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
@@ -98,6 +95,7 @@ figure {
       }
     }
   }
+
   &.effect-sadie {
     figcaption::before {
       position: absolute;
@@ -105,28 +103,20 @@ figure {
       left: 0;
       width: 100%;
       height: 100%;
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, rgba(72, 76, 97, 0)),
-        color-stop(50%, $color_trout_80_approx)
-      );
-      background: -webkit-linear-gradient(
-        top,
-        rgba(72, 76, 97, 0) 0,
-        $color_trout_80_approx 10%
-      );
-      background: -o-linear-gradient(
-        top,
-        rgba(72, 76, 97, 0) 0,
-        $color_trout_80_approx 50%
-      );
-      background: linear-gradient(
-        to bottom,
-        rgba(72, 76, 97, 0) 0,
-        $color_trout_80_approx 50%
-      );
+      background: -webkit-gradient(linear,
+          left top,
+          left bottom,
+          color-stop(0, rgba(72, 76, 97, 0)),
+          color-stop(50%, $color_trout_80_approx));
+      background: -webkit-linear-gradient(top,
+          rgba(72, 76, 97, 0) 0,
+          $color_trout_80_approx 10%);
+      background: -o-linear-gradient(top,
+          rgba(72, 76, 97, 0) 0,
+          $color_trout_80_approx 50%);
+      background: linear-gradient(to bottom,
+          rgba(72, 76, 97, 0) 0,
+          $color_trout_80_approx 50%);
       content: "";
       opacity: 0;
       -webkit-transform: translate3d(0, 50%, 0);
@@ -154,12 +144,14 @@ figure {
       -webkit-transform: translate3d(0, 20px, 0);
       transform: translate3d(0, 15px, 0);
     }
+
     &:hover {
       figcaption::before {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
       }
+
       p {
         opacity: 1;
         -webkit-transform: translate3d(0, 0, 0);

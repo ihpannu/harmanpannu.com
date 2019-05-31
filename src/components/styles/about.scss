@@ -15,43 +15,53 @@
   max-width: 960px;
   padding: 3em 1em 0 1em;
   margin: auto;
+
   hr {
     background: rgba(133, 133, 133, 0.342);
     height: 1px;
     border: none;
     width: 20%;
   }
+
   a:hover {
     color: $c-pink;
   }
+
   .h {
     color: $c-pink;
   }
+
   h1 {
     font-size: 1.8rem;
     color: $c-pink;
   }
+
   h2,
   h3 {
     color: $c-pink;
   }
+
   p {
     font-size: 1.2rem;
   }
+
   .quote {
     line-height: 2;
     font-size: 1.2rem;
     color: $c-gray;
-    font-family: "Josefin Sans", sans-serif;
   }
+
   .resume-inside {
     margin-top: 3em;
+
     h1 {
       font-size: 2rem;
     }
+
     h3 {
       font-size: 1.3rem;
     }
+
     .list li {
       display: inline-block;
       color: $c-gray;
@@ -64,17 +74,21 @@
   li {
     word-spacing: 4px;
   }
+
   li,
   p {
     font-size: 1.2em;
   }
+
   p {
     font-size: 0.9em;
   }
+
   .list {
     h4 {
       font-size: 1em;
     }
+
     li {
       font-size: 1em;
     }

@@ -2,18 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import './index.scss';
-import Header from '../components/Header/Header';
 import fontawesome from '@fortawesome/fontawesome';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import brands from '@fortawesome/fontawesome-free-brands';
 import faCheckSquare from '@fortawesome/fontawesome-free-solid/faCheckSquare';
-import Footer from '../components/Footer/Footer';
 import Particles from 'react-particles-js';
 
 fontawesome.library.add(brands, faCheckSquare);
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div className="App">
     <Helmet
       title="Harman Pannu"
       meta={[
@@ -27,7 +24,6 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
-    <Header />
     <Particles
       params={{
         particles: {

@@ -1,7 +1,5 @@
 import React from "react";
-import Link from "gatsby-link";
-import Resume from "../../asset/harman-resume.pdf";
-import fontawesome from "@fortawesome/fontawesome";
+import Resume from "../asset/harman-resume.pdf";
 import FontAwesomeIcon from "@fortawesome/react-fontawesome";
 import * as Icons from "@fortawesome/fontawesome-free-solid";
 const Footer = () => (
@@ -45,7 +43,7 @@ const Footer = () => (
         </li>
       </ul>
       <h6>
-        <FontAwesomeIcon icon={Icons.faCopyright} /> 2018 Handmade By Me
+        <FontAwesomeIcon icon={Icons.faCopyright} /> {new Date().getFullYear()} Handmade By Me
       </h6>
     </footer>
   </div>

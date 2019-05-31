@@ -1,6 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer';
 
 // About Page
 const AboutPage = () => (

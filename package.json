@@ -1,6 +1,6 @@
 {
-    "name": "Harman",
-    "description": "Portfolio Website",
+    "name": "iharmanpannu",
+    "description": "Harman Pannu's Portfolio Website",
     "version": "1.0.0",
     "author": "Harman Pannu <iharmanpannu@gmail.com>",
     "dependencies": {
@@ -19,7 +19,7 @@
         "react-particles-js": "^2.1.2"
     },
     "keywords": [
-        "gatsby"
+        "gatsby", "harmanpannu", "harman", "pannu", "portfolio"
     ],
     "license": "MIT",
     "main": "n/a",

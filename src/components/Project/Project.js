@@ -1,7 +1,5 @@
 import React from 'react';
-import Footer from '../Footer/Footer';
-import fontawesome from '@fortawesome/fontawesome';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import Footer from '../Footer';
 import Myweb from '../../asset/mywebsite.png';
 import Jamming from '../../asset/jamming.jpg';
 import Ravenous from '../../asset/ravenous.jpg';
@@ -11,7 +9,6 @@ import Gif from '../../asset/giphy.gif';
 import Form from '../../asset/form.gif';
 import js100 from '../../asset/100.png';
 import angapp from '../../asset/ang-app.png';
-import Projects from '../../pages/projects';
 
 const projects = [
   {
