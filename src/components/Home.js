@@ -1,9 +1,11 @@
 import React from "react"
 import Footer from './Footer'
+import Header from '../components/Header/Header'
 
 const Home = () => {
   return (
     <div className="home">
+      <Header />
       <section className="main-section">
         <h1 className="name spin">Harman Pannu</h1>
         <h4>Software Engineer @
