@@ -1,35 +1,29 @@
 {
-    "name": "iharmanpannu",
-    "description": "Harman Pannu's Portfolio Website",
-    "version": "1.0.0",
-    "author": "Harman Pannu <iharmanpannu@gmail.com>",
-    "dependencies": {
-        "@fortawesome/fontawesome": "^1.1.5",
-        "@fortawesome/fontawesome-free-brands": "^5.0.9",
-        "@fortawesome/fontawesome-free-solid": "^5.0.9",
-        "@fortawesome/react-fontawesome": "0.0.17",
-        "gatsby": "^1.9.246",
-        "gatsby-link": "^1.6.40",
-        "gatsby-plugin-favicon": "^2.1.1",
-        "gatsby-plugin-offline": "^1.0.15",
-        "gatsby-plugin-react-helmet": "^2.0.10",
-        "gatsby-plugin-sass": "^1.0.25",
-        "react-anime": "^2.1.0",
-        "react-helmet": "^5.2.0",
-        "react-particles-js": "^2.1.2"
-    },
-    "keywords": [
-        "gatsby", "harmanpannu", "harman", "pannu", "portfolio"
-    ],
-    "license": "MIT",
-    "main": "n/a",
-    "scripts": {
-        "build": "gatsby build",
-        "develop": "gatsby develop",
-        "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "devDependencies": {
-        "prettier": "^1.11.1"
-    }
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc",
+    "deploy": "yarn export && netlify deploy --prod",
+    "export": "yarn build && next export"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "3.0.0",
+    "next": "latest",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-spring": "^8.0.27"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.3.5",
+    "typescript": "^3.8.3"
+  },
+  "license": "ISC"
 }
