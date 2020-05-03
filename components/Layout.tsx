@@ -18,11 +18,12 @@ const Layout: React.FunctionComponent<Props> = ({
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap"
         rel="stylesheet"
       />
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
-        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+      <link
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossOrigin="anonymous"
-      ></script>
+      />
     </Head>
     <main className="w-screen h-screen flex items-center justify-center px-6">
       {children}
@@ -31,3 +32,4 @@ const Layout: React.FunctionComponent<Props> = ({
 )
 
 export default Layout
+// <script src="https://use.fontawesome.com/04d2721948.js"></script>
