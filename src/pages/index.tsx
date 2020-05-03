@@ -23,7 +23,7 @@ const IndexPage = () => (
       <h4 className="mb-3 text-center sm:text-left">
         👨🏻‍💻 Full Stack / Front-End Developer @
         <a
-          className="text-primary-600 mx-1"
+          className="mx-1 font-extrabold"
           href="https://www.freshconsulting.com/team/harmanpannu/"
         >
           Fresh
