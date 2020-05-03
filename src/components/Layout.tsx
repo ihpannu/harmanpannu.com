@@ -9,7 +9,7 @@ const Layout: React.FunctionComponent<Props> = ({
   children,
   title = "Harman Pannu",
 }) => (
-  <div>
+  <>
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -25,10 +25,13 @@ const Layout: React.FunctionComponent<Props> = ({
         crossOrigin="anonymous"
       />
     </Head>
-    <main className="w-screen h-screen flex items-center justify-center px-6">
+    <main
+      style={{ width: "100vw", height: "100vh" }}
+      className="flex items-center justify-center px-6"
+    >
       {children}
     </main>
-  </div>
+  </>
 )
 
 export default Layout
