@@ -1,0 +1,9 @@
+{
+  "sortLines.sortEntireFile": true,
+  "editor.foldingImportsByDefault": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "always"
+  }
+}
